@@ -518,9 +518,16 @@
             background-color: transparent!important;
         }*/
 
+        .vc_row.wpb_row.wpb_animate_when_almost_visible.wpb_slideInLeft.slideInLeft.wpb_start_animation.animated > .wpb_column.column_container.col-sm-8.col-has-fill > div > div > .wpb_text_column.wpb_content_element  {
+                margin-left:20px!important;
+            }
+
         @media screen and (max-width: 480px) {
             #first-section {
                 flex-direction: column;
+            }
+        .vc_row.wpb_row.wpb_animate_when_almost_visible.wpb_slideInLeft.slideInLeft.wpb_start_animation.animated > .wpb_column.column_container.col-sm-8.col-has-fill > div > div > .wpb_text_column.wpb_content_element  {
+                margin-left:0!important;
             }
 
             #second-col {
@@ -529,6 +536,15 @@
 
             #second-col>div {
                 margin-top: 16px;
+            }
+
+            .vc_row.wpb_row.wpb_animate_when_almost_visible.wpb_slideInRight.slideInRight.wpb_start_animation.animated {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+
+            .vc_row.wpb_row.wpb_animate_when_almost_visible.wpb_slideInRight.slideInRight.wpb_start_animation.animated > .wpb_column.column_container.col-sm-4.col-has-fill {
+               
             }
 
             .badge-m {
@@ -544,6 +560,7 @@
                 margin-bottom:  16px;
                 box-sizing: border-box;
                 padding-left: 40px;
+                white-space: normal;
             }
 
         .header-page > div > div {
